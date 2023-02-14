@@ -14,7 +14,7 @@ struct NavigationItem: Identifiable,Hashable {
     var menu: Menu
 }
 
-var navigationItem: [NavigationItem] = [
+var navigationItems: [NavigationItem] = [
     .init(title: "Compass App", icon: "safari", menu: .compass),
     .init(title: "3D Card", icon: "lanyardcard", menu: .card),
     .init(title: "Radial Layout", icon: "clock", menu: .radial),

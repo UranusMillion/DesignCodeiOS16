@@ -10,7 +10,7 @@ import SwiftUI
 struct NavigationStackView: View {
     var body: some View {
         NavigationStack {
-            List(navigationItem) { item in
+            List(navigationItems) { item in
                 NavigationLink(value: item) {
                     Label(item.title, systemImage: item.icon)
                         .foregroundColor(.primary)
