@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C35E345299B6E9F00A14C54 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */; };
+		8C35E347299B749300A14C54 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35E346299B749300A14C54 /* Data.swift */; };
 		8CA14332299A149D00A27EB5 /* DesignCodeiOS16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */; };
 		8CA14334299A149D00A27EB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA14333299A149D00A27EB5 /* ContentView.swift */; };
 		8CA14336299A149F00A27EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA14335299A149F00A27EB5 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		8C35E346299B749300A14C54 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		8CA1432E299A149D00A27EB5 /* DesignCodeiOS16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS16App.swift; sourceTree = "<group>"; };
 		8CA14333299A149D00A27EB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */,
 				8CA14333299A149D00A27EB5 /* ContentView.swift */,
+				8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */,
+				8C35E346299B749300A14C54 /* Data.swift */,
 				8CA14335299A149F00A27EB5 /* Assets.xcassets */,
 				8CA14337299A149F00A27EB5 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA14334299A149D00A27EB5 /* ContentView.swift in Sources */,
+				8C35E345299B6E9F00A14C54 /* NavigationStackView.swift in Sources */,
 				8CA14332299A149D00A27EB5 /* DesignCodeiOS16App.swift in Sources */,
+				8C35E347299B749300A14C54 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = U6924L569Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DesignCode;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = U6924L569Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DesignCode;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
