@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		35539EF7299BD4510008A4CB /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35539EF6299BD4510008A4CB /* MessageView.swift */; };
 		35539EF9299BD59D0008A4CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35539EF8299BD59D0008A4CB /* MenuView.swift */; };
+		35D5189A299D1FEA00D6606F /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D51899299D1FEA00D6606F /* RadialLayoutView.swift */; };
 		8C35E345299B6E9F00A14C54 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */; };
 		8C35E347299B749300A14C54 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35E346299B749300A14C54 /* Data.swift */; };
+		8C41E79F299C837B0097371C /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41E79E299C837B0097371C /* ChartView.swift */; };
+		8C41E7A1299CAB1F0097371C /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41E7A0299CAB1F0097371C /* GridView.swift */; };
+		8C41E7A3299CB3390097371C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41E7A2299CB3390097371C /* CardView.swift */; };
+		8C41E7A5299CBEC50097371C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41E7A4299CBEC50097371C /* DetailView.swift */; };
 		8CA14332299A149D00A27EB5 /* DesignCodeiOS16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */; };
 		8CA14334299A149D00A27EB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA14333299A149D00A27EB5 /* ContentView.swift */; };
 		8CA14336299A149F00A27EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA14335299A149F00A27EB5 /* Assets.xcassets */; };
@@ -20,8 +25,13 @@
 /* Begin PBXFileReference section */
 		35539EF6299BD4510008A4CB /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		35539EF8299BD59D0008A4CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		35D51899299D1FEA00D6606F /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 		8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		8C35E346299B749300A14C54 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8C41E79E299C837B0097371C /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		8C41E7A0299CAB1F0097371C /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		8C41E7A2299CB3390097371C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8C41E7A4299CBEC50097371C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8CA1432E299A149D00A27EB5 /* DesignCodeiOS16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS16App.swift; sourceTree = "<group>"; };
 		8CA14333299A149D00A27EB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +71,11 @@
 			children = (
 				8CA14331299A149D00A27EB5 /* DesignCodeiOS16App.swift */,
 				8CA14333299A149D00A27EB5 /* ContentView.swift */,
+				35D51899299D1FEA00D6606F /* RadialLayoutView.swift */,
+				8C41E79E299C837B0097371C /* ChartView.swift */,
+				8C41E7A0299CAB1F0097371C /* GridView.swift */,
+				8C41E7A2299CB3390097371C /* CardView.swift */,
+				8C41E7A4299CBEC50097371C /* DetailView.swift */,
 				35539EF8299BD59D0008A4CB /* MenuView.swift */,
 				35539EF6299BD4510008A4CB /* MessageView.swift */,
 				8C35E344299B6E9F00A14C54 /* NavigationStackView.swift */,
@@ -150,8 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA14334299A149D00A27EB5 /* ContentView.swift in Sources */,
+				8C41E7A3299CB3390097371C /* CardView.swift in Sources */,
 				35539EF9299BD59D0008A4CB /* MenuView.swift in Sources */,
+				35D5189A299D1FEA00D6606F /* RadialLayoutView.swift in Sources */,
+				8C41E7A5299CBEC50097371C /* DetailView.swift in Sources */,
+				8C41E7A1299CAB1F0097371C /* GridView.swift in Sources */,
 				8C35E345299B6E9F00A14C54 /* NavigationStackView.swift in Sources */,
+				8C41E79F299C837B0097371C /* ChartView.swift in Sources */,
 				8CA14332299A149D00A27EB5 /* DesignCodeiOS16App.swift in Sources */,
 				8C35E347299B749300A14C54 /* Data.swift in Sources */,
 				35539EF7299BD4510008A4CB /* MessageView.swift in Sources */,

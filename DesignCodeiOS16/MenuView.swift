@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct MenuView: View {
-    @Binding var selectedMenu: Menu
-    
+//    @Binding var selectedMenu: Menu
+    @AppStorage("selectedMenu") var selectedMenu: Menu = .compass
+
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         List(navigationItems) { item in
             Button {
                 selectedMenu = item.menu
+                dismiss()
             } label: {
                 Label(item.title, systemImage: item.icon)
                     .foregroundColor(.primary)
@@ -28,6 +31,7 @@ struct MenuView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView(selectedMenu: .constant(.compass))
+//        MenuView(selectedMenu: .constant(.compass))
+        MenuView()
     }
 }
